@@ -1,5 +1,5 @@
 [package]
-name = "ollama-models-chatbot"
+name = "llm-chatbot"
 version = "0.1.0"
 authors = ["saenttor <torsxperience@outlook.com>"]
 edition = "2021"
@@ -8,7 +8,7 @@ edition = "2021"
 
 [dependencies]
 
-dioxus = { version = "0.5", features = ["web"] }
+dioxus = { version = "0.5", features = ["web", "router"] }
 
 # Debug
 tracing = "0.1.40"

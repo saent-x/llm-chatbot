@@ -1,7 +1,7 @@
 [application]
 
 # App (Project) Name
-name = "ollama-models-chatbot"
+name = "llm-chatbot"
 
 # Dioxus App Default Platform
 # desktop, web
@@ -16,7 +16,7 @@ asset_dir = "assets"
 [web.app]
 
 # HTML title tag content
-title = "ollama-models-chatbot"
+title = "llm-chatbot"
 
 [web.watcher]
 
