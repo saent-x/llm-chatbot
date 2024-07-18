@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot-f.bundle.scp.css",
+      "PackagePath": "staticwebassets/llm-chatbot-f.ssyi0xtnp8.bundle.scp.css"
+    },
+    {
+      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.llm-chatbot-f.props",
+      "PackagePath": "build\\llm-chatbot-f.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.llm-chatbot-f.props",
+      "PackagePath": "buildMultiTargeting\\llm-chatbot-f.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.llm-chatbot-f.props",
+      "PackagePath": "buildTransitive\\llm-chatbot-f.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.llm-chatbot-f.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.llm-chatbot-f.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
