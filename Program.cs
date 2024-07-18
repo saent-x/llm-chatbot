@@ -1,4 +1,4 @@
-using llm_chatbot_f.Components;
+using llm_chatbot.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

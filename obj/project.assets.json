@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/saenttor/Documents/projects/llm-chatbot-f/llm-chatbot-f.csproj",
-      "projectName": "llm-chatbot-f",
-      "projectPath": "/home/saenttor/Documents/projects/llm-chatbot-f/llm-chatbot-f.csproj",
+      "projectUniqueName": "/home/saenttor/Documents/projects/llm-chatbot/llm-chatbot.csproj",
+      "projectName": "llm-chatbot",
+      "projectPath": "/home/saenttor/Documents/projects/llm-chatbot/llm-chatbot.csproj",
       "packagesPath": "/home/saenttor/.nuget/packages/",
-      "outputPath": "/home/saenttor/Documents/projects/llm-chatbot-f/obj/",
+      "outputPath": "/home/saenttor/Documents/projects/llm-chatbot/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/saenttor/.nuget/NuGet/NuGet.Config"

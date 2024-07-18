@@ -558,26 +558,59 @@ video {
   position: static;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.flex {
+  display: flex;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-medium {
   font-weight: 500;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 html, body {
@@ -592,6 +625,10 @@ a, .btn-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+*:focus {
+  outline: none;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
