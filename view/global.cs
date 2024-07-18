@@ -1,6 +1,3 @@
-namespace llm-chatbot.view;
+namespace llm_chatbot.view;
 
-public class global
-{
-    
-}
+public record struct ChatMessage(string from, string to, string message, DateTime timestamp);

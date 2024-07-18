@@ -1,0 +1,19 @@
+@rendermode InteractiveServer
+
+<div class="sm:max-w-[95%] md:max-w-[80%] border-r-4 bg-indigo-300 lg:max-w-[60%] lg:w-fit">
+    @_ChatMessage.message
+    <div class="flex justify-end items-end bg-black h-[20%]">
+        @_ChatMessage.from | @_ChatMessage.timestamp
+    </div>
+</div>
+
+@code{
+    [Parameter]
+    public ChatMessage _ChatMessage { get; set; }
+
+    protected void Delete()
+    {
+        
+    }
+
+}

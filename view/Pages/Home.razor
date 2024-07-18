@@ -6,17 +6,23 @@
 
 <div class="flex flex-col justify-center h-full items-center">
     <RadzenText TextStyle="TextStyle.DisplayH2">🤖 Welcome to llm-chatbot</RadzenText>
-    
-    <RadzenFormField Text="Text" Variant="Variant.Text" Style="width: 100%;">
-        <RadzenTextBox @bind="@Username" @bind:event="oninput" Style="width: 100%;" />
-    </RadzenFormField>
 
+    @if (!startLoading)
+    {
+        <input class="text-2xl min-w-[100px] border-b-gray-400 border-b-2 mt-9 w-[20%] text-gray-500 text-center"
+               @bind="Username"
+               @bind:event="oninput"
+               @onkeydown="GotoChatPage"
 
-    @if(startLoading){
-        <RadzenProgressBar class="w-[20%]" ProgressBarStyle="ProgressBarStyle.Dark" 
-        Value="100"
-        ShowValue="false"
-        Mode="ProgressBarMode.Indeterminate" />
+               placeholder="enter your name & press enter"/>
     }
-    
+
+    @if (startLoading)
+    {
+        <RadzenProgressBar class="w-[20%] mt-10"
+                           ProgressBarStyle="ProgressBarStyle.Dark"
+                           Value="100"
+                           ShowValue="false"
+                           Mode="ProgressBarMode.Indeterminate"/>
+    }
 </div>
