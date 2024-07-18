@@ -1,0 +1,22 @@
+﻿@page "/"
+@inherits llm_chatbot.view.Pages.HomeBase
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<div class="flex flex-col justify-center h-full items-center">
+    <RadzenText TextStyle="TextStyle.DisplayH2">🤖 Welcome to llm-chatbot</RadzenText>
+    
+    <RadzenFormField Text="Text" Variant="Variant.Text" Style="width: 100%;">
+        <RadzenTextBox @bind="@Username" @bind:event="oninput" Style="width: 100%;" />
+    </RadzenFormField>
+
+
+    @if(startLoading){
+        <RadzenProgressBar class="w-[20%]" ProgressBarStyle="ProgressBarStyle.Dark" 
+        Value="100"
+        ShowValue="false"
+        Mode="ProgressBarMode.Indeterminate" />
+    }
+    
+</div>
