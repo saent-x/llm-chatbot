@@ -28,9 +28,7 @@ public class ChatBase: ComponentBase{
         await ScrollToBottom();
     }
     
-    private async Task ScrollToBottom()
-    {
+    private async Task ScrollToBottom() => 
         await JS.InvokeVoidAsync("scrollToBottom", "chatMessages");
-    }
 
 }

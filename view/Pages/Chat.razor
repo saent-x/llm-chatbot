@@ -8,14 +8,14 @@
         <RadzenText class="text-white" TextStyle="TextStyle.DisplayH4">🤖</RadzenText>
     </div>
     
-    <div class="flex flex-col overflow-auto sm:p-2 md:p-5 lg:p-10 w-[80%] h-[81%]">
+    <div id="chatMessages" class="flex flex-col overflow-auto sm:p-2 md:p-5 lg:p-10 w-[80%] h-[82%]">
         @foreach (var cm in _chatService?.chatMessages!)
-        {
+        {       
             <ChatMessageCard ChatMessage="@cm"/>
         }
     </div>
 
-    <div id="chatMessages" class="place-content-end h-[11%] w-[100%]">
+    <div class="place-content-end h-[14%] w-[100%]">
         <ChatInput @bind-Message="Message" OnSendCallBack="SendAsync"/>
     </div>
 </div>
