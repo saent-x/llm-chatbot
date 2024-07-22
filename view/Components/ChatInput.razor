@@ -25,13 +25,14 @@
 
     private async Task OnEnterAsync(KeyboardEventArgs e)
     {
-        if (e.Key == "Enter")
-            await SendAsync();
+        if (e.Key == "Enter") await SendAsync();
     }
 
     private async Task SendAsync()
     {
-        await OnSendCallBack.InvokeAsync(Message);
+        await MessageChanged.InvokeAsync(Message);
+        await OnSendCallBack.InvokeAsync();
+        
         Logger.LogInformation("OnSendCallBack Invoked"); 
     }
 
