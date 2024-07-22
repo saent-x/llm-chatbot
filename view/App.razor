@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using llm_chatbot.view.Components
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,9 +17,19 @@
 </head>
 
 <body class="h-screen">
-    <Routes />
-    <script src="_framework/blazor.web.js"></script>
-    <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+<Routes />
+<script src="_framework/blazor.web.js"></script>
+<script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+<script>
+    function scrollToBottom(elementId) {
+        var element = document.getElementById(elementId);
+        if (element) {
+            element.scrollTop = element.scrollHeight;
+        }
+    }
+</script>
 </body>
+
+<Footer></Footer>
 
 </html>

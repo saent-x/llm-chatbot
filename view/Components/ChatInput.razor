@@ -1,0 +1,38 @@
+@rendermode InteractiveServer
+@inject NotificationService NotificationService
+@inject ILogger<ChatInput> Logger
+
+<div class="flex justify-center w-[100%] mt-2">
+    <div class="flex items-center text-white sm:p-4 lg:p-4 md:p-4 sm:w-[100%] md:w-[50%] lg:w-[50%] sm:rounded-none md:rounded-full lg:rounded-full bg-[#2F2F2F]">
+        <div class="flex-grow">
+            <input @onkeydown="OnEnterAsync" @bind="Message" @bind:event="oninput" type="text" placeholder="Message llm-chatbot" class="bg-[#2F2F2F] text-lg pr-5 pl-5 text-white w-full outline-none placeholder-gray-500"/>
+        </div>
+        <button class="flex-none ml-2" @onclick="SendAsync">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+        </button>
+    </div>
+</div>
+
+@code{
+    [Parameter]
+    public string? Message { get; set; }
+    [Parameter]
+    public EventCallback<string?> MessageChanged { get; set; }
+    [Parameter]
+    public EventCallback<string?> OnSendCallBack { get; set; }
+
+    private async Task OnEnterAsync(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+            await SendAsync();
+    }
+
+    private async Task SendAsync()
+    {
+        await OnSendCallBack.InvokeAsync(Message);
+        Logger.LogInformation("OnSendCallBack Invoked"); 
+    }
+
+}

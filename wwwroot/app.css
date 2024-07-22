@@ -4,6 +4,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #212121;
 }
 
 a, .btn-link {

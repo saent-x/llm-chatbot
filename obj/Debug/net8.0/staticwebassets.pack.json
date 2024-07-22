@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css",
       "PackagePath": "staticwebassets/llm-chatbot.bundle.scp.css"
     },
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/app.css",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/app.min.css",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/app.min.css",
       "PackagePath": "staticwebassets/app.min.css"
     },
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/favicon.png",
+      "Id": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {

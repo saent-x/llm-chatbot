@@ -1,7 +1,11 @@
+using llm_chatbot.interfaces;
+using llm_chatbot.services;
 using llm_chatbot.view;
+using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddSingleton<IChatService,ChatService>();
+builder.Services.AddSingleton<NotificationService>();
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();

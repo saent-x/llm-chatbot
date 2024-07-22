@@ -813,11 +813,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/saenttor/Documents/projects/llm-chatbot/llm-chatbot.csproj",
+      "projectUniqueName": "/home/saenttor/Documents/Projects/llm-chatbot/llm-chatbot.csproj",
       "projectName": "llm-chatbot",
-      "projectPath": "/home/saenttor/Documents/projects/llm-chatbot/llm-chatbot.csproj",
+      "projectPath": "/home/saenttor/Documents/Projects/llm-chatbot/llm-chatbot.csproj",
       "packagesPath": "/home/saenttor/.nuget/packages/",
-      "outputPath": "/home/saenttor/Documents/projects/llm-chatbot/obj/",
+      "outputPath": "/home/saenttor/Documents/Projects/llm-chatbot/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/saenttor/.nuget/NuGet/NuGet.Config"
@@ -873,7 +873,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/saenttor/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

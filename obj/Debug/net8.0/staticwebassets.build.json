@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PnbU/gDNmHloOXdUMyiD9StDJYkQJr0qxjTed+0+2Dg=",
+  "Hash": "YsaPafhgvmVlj1yL15IKAGoMUXSCj7mGyVkNikRBhWg=",
   "Source": "llm-chatbot",
   "BasePath": "_content/llm-chatbot",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "llm-chatbot/wwwroot",
       "Source": "llm-chatbot",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "Pattern": "**"
     }
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "/home/saenttor/.nuget/packages/radzen.blazor/4.34.3/staticwebassets/Radzen.Blazor.js"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/llm-chatbot.styles.css",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/llm-chatbot.styles.css",
       "SourceId": "llm-chatbot",
       "SourceType": "Computed",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "llm-chatbot.styles.css",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/llm-chatbot.styles.css"
+      "OriginalItemSpec": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/bundle/llm-chatbot.styles.css"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css",
       "SourceId": "llm-chatbot",
       "SourceType": "Computed",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "llm-chatbot.bundle.scp.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/saenttor/Documents/projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css"
+      "OriginalItemSpec": "/home/saenttor/Documents/Projects/llm-chatbot/obj/Debug/net8.0/scopedcss/projectbundle/llm-chatbot.bundle.scp.css"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/app.css",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/app.css",
       "SourceId": "llm-chatbot",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/app.min.css",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/app.min.css",
       "SourceId": "llm-chatbot",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "app.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/app.min.css"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "llm-chatbot",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "llm-chatbot",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/favicon.png",
+      "Identity": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/favicon.png",
       "SourceId": "llm-chatbot",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/saenttor/Documents/projects/llm-chatbot/wwwroot/",
+      "ContentRoot": "/home/saenttor/Documents/Projects/llm-chatbot/wwwroot/",
       "BasePath": "_content/llm-chatbot",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

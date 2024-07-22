@@ -1,47 +1,36 @@
-using llm_chatbot.services;
+using llm_chatbot.interfaces;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace llm_chatbot.view.Pages;
 
 public class ChatBase: ComponentBase{
 
-    protected ChatMessage[] chatMessages { get; set; }
-    [Inject] protected ChatService _chatService { get; set; }
+    [Inject] protected IChatService? _chatService { get; set; }
+    [Inject] protected ILogger<Chat>? Logger { get; set; }
+    [Inject] protected IJSRuntime JS { get; set; }
+    protected string? Message { get; set; }
 
-    protected override void OnInitialized()
+    protected async Task SendAsync()
     {
-        chatMessages =
-        [
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username},
-            new ChatMessage{message = "Hello", timestamp = DateTime.Now, to = "llm-chatbot", from = _chatService.Username}
-        ];
-    }
-
-    protected void GenerateResponse(){
-
-    }
-
-    protected void StopResponse(){
-
-    }
-
-    protected void DeleteMessage(int id){
-
-    }
-
-    protected void ClearScreen(){
-
-    }
-
-    protected void ClearMessages(){
+        _chatService.chatMessages.Add(new ChatMessage
+        {
+            id = Guid.NewGuid().ToString(),
+            message = Message!,
+            sender = _chatService.Username!,
+            timestamp = DateTime.Now
+        });
         
+        Logger.LogInformation($"message: {Message!}");
+
+        Message = "";
+
+        await ScrollToBottom();
     }
+    
+    private async Task ScrollToBottom()
+    {
+        await JS.InvokeVoidAsync("scrollToBottom", "chatMessages");
+    }
+
 }

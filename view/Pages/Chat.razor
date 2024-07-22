@@ -3,22 +3,21 @@
 @using llm_chatbot.view.Components
 @rendermode InteractiveServer
 
-<div class="flex justify-center m-auto w-[100%] h-[90%] bg-gray-100">
+<div class="flex flex-col items-center m-auto w-[100%] h-[96%] bg-[#212121]">
     <div class="flex justify-center items-center bg-gray-200 h-[50px] w-[100%] text-center">
         <RadzenText class="text-white" TextStyle="TextStyle.DisplayH4">🤖</RadzenText>
     </div>
     
-    <div class="overflow-auto m-2">
-        @foreach (var cm in chatMessages)
+    <div class="flex flex-col overflow-auto sm:p-2 md:p-5 lg:p-10 w-[80%] h-[81%]">
+        @foreach (var cm in _chatService?.chatMessages!)
         {
             <ChatMessageCard ChatMessage="@cm"/>
         }
     </div>
+
+    <div id="chatMessages" class="place-content-end h-[11%] w-[100%]">
+        <ChatInput @bind-Message="Message" OnSendCallBack="SendAsync"/>
+    </div>
 </div>
 
-<div class="flex justify-center w-[100%] mt-2">
-    <RadzenFormField Text="type your question" class="sm:w-[100%] md:w-[100%] lg:w-[50%]">
-        <RadzenTextArea Style="width: 100%; height: 50px; font-size: 20px" />
-    </RadzenFormField>
-</div>
 

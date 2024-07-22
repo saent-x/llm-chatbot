@@ -1,4 +1,4 @@
-using llm_chatbot.services;
+using llm_chatbot.interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -8,7 +8,7 @@ namespace llm_chatbot.view.Pages;
 public class HomeBase : ComponentBase
 {
     protected string? Username { get; set; }
-    [Inject] protected ChatService _chatService { get; set; }
+    [Inject] protected IChatService _chatService { get; set; }
     [Inject] private NavigationManager navigation {get; set;}
     protected bool startLoading {get; set;} = false;
 

@@ -9,39 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = llm-chatbot
 build_property.RootNamespace = llm-chatbot
-build_property.ProjectDir = /home/saenttor/Documents/projects/llm-chatbot/
+build_property.ProjectDir = /home/saenttor/Documents/Projects/llm-chatbot/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/saenttor/Documents/projects/llm-chatbot
+build_property.MSBuildProjectDirectory = /home/saenttor/Documents/Projects/llm-chatbot
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/App.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/App.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/Components/ChatMessageCard.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Components/ChatInput.razor]
+build_metadata.AdditionalFiles.TargetPath = dmlldy9Db21wb25lbnRzL0NoYXRJbnB1dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Components/ChatMessageCard.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9Db21wb25lbnRzL0NoYXRNZXNzYWdlQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/Pages/Chat.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Components/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = dmlldy9Db21wb25lbnRzL0Zvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Pages/Chat.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9QYWdlcy9DaGF0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/Pages/Home.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/Routes.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/_Imports.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/saenttor/Documents/projects/llm-chatbot/view/Layout/MainLayout.razor]
+[/home/saenttor/Documents/Projects/llm-chatbot/view/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7eyv14o1eu

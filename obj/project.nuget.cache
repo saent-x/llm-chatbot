@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KCrHf1NKBd8=",
+  "dgSpecHash": "NonRbAfgm8U=",
   "success": true,
-  "projectFilePath": "/home/saenttor/Documents/projects/llm-chatbot/llm-chatbot.csproj",
+  "projectFilePath": "/home/saenttor/Documents/Projects/llm-chatbot/llm-chatbot.csproj",
   "expectedPackageFiles": [
     "/home/saenttor/.nuget/packages/dartsassbuilder/1.0.0/dartsassbuilder.1.0.0.nupkg.sha512",
     "/home/saenttor/.nuget/packages/microsoft.aspnetcore.authorization/8.0.0/microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
