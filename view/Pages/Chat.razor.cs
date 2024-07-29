@@ -13,22 +13,32 @@ public class ChatBase: ComponentBase{
 
     protected async Task SendAsync()
     {
-        _chatService.chatMessages.Add(new ChatMessage
+        if(string.IsNullOrEmpty(Message) || string.IsNullOrWhiteSpace(Message)) return;
+        
+        _chatService?.chatMessages.Add(new ChatMessage
         {
             id = Guid.NewGuid().ToString(),
-            message = Message!,
+            message = Message,
             sender = _chatService.Username!,
             timestamp = DateTime.Now
         });
         
-        Logger.LogInformation($"message: {Message!}");
-
         Message = "";
 
         await ScrollToBottom();
+        var ollama_response = await _chatService?.GenerateResponse(Message)!;
+        
+        _chatService.chatMessages.Add(new ChatMessage
+        {
+            id = Guid.NewGuid().ToString(),
+            message = ollama_response,  
+            sender = "llm_chatbot",
+            timestamp = DateTime.Now
+        });
+        
+        Logger?.LogInformation("response generated.");
     }
     
     private async Task ScrollToBottom() => 
         await JS.InvokeVoidAsync("scrollToBottom", "chatMessages");
-
 }

@@ -17,6 +17,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /home/saenttor/Documents/Projects/llm-chatbot
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
 
 [/home/saenttor/Documents/Projects/llm-chatbot/view/App.razor]
 build_metadata.AdditionalFiles.TargetPath = dmlldy9BcHAucmF6b3I=

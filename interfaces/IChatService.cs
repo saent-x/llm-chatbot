@@ -7,7 +7,7 @@ public interface IChatService{
     string? Username { get; set; }
     List<ChatMessage> chatMessages { get; set; }
     void SetUsername(string value);
-    void GenerateResponse();
+    Task<string> GenerateResponse(string question);
     void StopResponse();
     void DeleteMessage(int id);
     void ClearScreen();
